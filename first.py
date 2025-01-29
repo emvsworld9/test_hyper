@@ -131,7 +131,7 @@ This is just an expectation
  from a program and not sure 
  please check with your doctor
 but this program expects that
-**{text_result}** with {perc} We hope that you are always
+**{text_result}** with **{perc}** We hope that you are always
 in good health \n\n
 
 """
