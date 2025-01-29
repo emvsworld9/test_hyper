@@ -105,7 +105,7 @@ elif thal == "reversable defect":
 inputs=[age, sex, cp, trestbps, chol, fbs, restecg,thalach, exang, oldpeak, slope, ca, thal]
 inputs=np.array(inputs).reshape(1,-1)
 inputs=scaler.transform(inputs)
-result=model.predict(inputs)
+result=model.predict(inputs)[0]
 
 neg_perc=model.predict_proba(inputs)[0][0]
 pos_perc=model.predict_proba(inputs)[0][1]
