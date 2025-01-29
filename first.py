@@ -108,7 +108,7 @@ inputs=scaler.transform(inputs)
 result=model.predict(inputs)
 
 neg_perc=model.predict_proba(inputs)[0][0]
-pos_perc=model.predict_proba(inputs)[0][0]
+pos_perc=model.predict_proba(inputs)[0][1]
 
 perc=''
 if neg_perc>pos_perc:
