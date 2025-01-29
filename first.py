@@ -119,9 +119,9 @@ else:
 
 text_result=''
 if result ==1:
-    text_result="The patient has a heart disease"
+    text_result="The patient has a hypertension"
 else:
-    text_result="The patient does not have a heart disease"
+    text_result="The patient does not have a hypertension"
 
 
 
