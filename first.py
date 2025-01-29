@@ -107,6 +107,14 @@ inputs=np.array(inputs).reshape(1,-1)
 inputs=scaler.transform(inputs)
 result=model.predict(inputs)
 
+neg_perc=model.predict_proba(inputs)[0][0]
+pos_perc=model.predict_proba(inputs)[0][0]
+
+perc=''
+if neg_perc>pos_perc:
+    perc= str(neg_perc*100)+'%'
+else:
+    perc= str(pos_perc*100)+'%'
 
 
 text_result=''
@@ -123,8 +131,9 @@ This is just an expectation
  from a program and not sure 
  please check with your doctor
 but this program expects that
-**{text_result}** We hope that you are always
+**{text_result}** with {perc} We hope that you are always
 in good health \n\n
+
 """
 st.write("-"*50)
 end_text="""**WARNING**\n
