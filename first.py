@@ -9,7 +9,7 @@ scaler= joblib.load('scaler.pkl')
 model = joblib.load('model.pkl')
 
 st.set_page_config(page_title="hyper_test", page_icon="🩺")
-st.title("**THIS IS HYPERTENSION PROJECT**")
+st.title("**THIS IS BASANT HYPERTENSION PROJECT**")
 st.subheader("**inputs**")
 
 col1,col2=st.columns(2)
