@@ -40,10 +40,10 @@ elif cp == "non-anginal pain":
 
 
 
-trestbps=col2.number_input("**Resting blood pressure** (in mm Hg)",min_value=80,max_value=200,value="min")
+trestbps=col2.number_input("**Resting blood pressure** (in mm Hg)",min_value=40,max_value=200,value="min")
 
 
-chol=col1.number_input(" **Serum cholestoral** (in mg/dl)",min_value=100,max_value=600,value="min")
+chol=col1.number_input(" **Serum cholestoral** (in mg/dl)",min_value=40,max_value=600,value="min")
 
 
 fbs=col2.selectbox("**if the patient's fasting blood sugar > 120 mg/dl**",["yes","no"])
@@ -62,7 +62,7 @@ elif restecg == "Severe ST-T Wave Abnormality":
     restecg = 2
 
 
-thalach=col2.number_input(" **Maximum heart rate achieved**",min_value=60,max_value=200,value="min")
+thalach=col2.number_input(" **Maximum heart rate achieved**",min_value=20,max_value=200,value="min")
 
 
 
