@@ -8,7 +8,7 @@ import time as time
 
 
 
-
+st.image("C:\Users\VICTUS\Desktop\AIESEC\on the map\WhatsApp Image 2025-04-01 at 15.13.32_94db2a64.jpg",width=600)
 
 
 
