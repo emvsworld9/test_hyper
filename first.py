@@ -3,7 +3,29 @@ import pandas as pd
 import joblib 
 import numpy as np
 import time as time
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''========================================================================================'''
 scaler= joblib.load('scaler.pkl')
 
 model = joblib.load('model.pkl')
