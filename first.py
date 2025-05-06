@@ -72,8 +72,8 @@ else:
     st.plotly_chart(get_fig_ST_depression(df), use_container_width=True)
 
 # Load Model and Scaler
-scaler = joblib.load(r'models/scaler.pkl')
-model = joblib.load(r'models/model.pkl')
+scaler = joblib.load(r'scaler.pkl')
+model = joblib.load(r'model.pkl')
 
 # Input Form
 st.subheader("Enter Your Information Below")
