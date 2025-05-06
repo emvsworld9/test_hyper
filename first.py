@@ -16,14 +16,6 @@ import time as time
 
 
 
-
-
-
-
-
-
-
-'''========================================'''
 scaler= joblib.load('scaler.pkl')
 
 model = joblib.load('model.pkl')
