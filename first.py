@@ -16,7 +16,7 @@ st.write("**Welcome to the Hypertension Prediction System!**\n"
          "Please enter your information below and get insights about your health risk.\n")
 
 # Data Import and Preprocessing
-df = pd.read_csv(r'data/hypertension(26k,14).csv')
+df = pd.read_csv(r'hypertension(26k,14).csv')
 
 # Functions for Visualizations
 @st.cache_resource
